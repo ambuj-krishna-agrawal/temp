@@ -1,0 +1,65 @@
+/* components/paintings/styles/painting.css */
+.painting-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .painting-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .painting-image-container {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .painting-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .painting-image:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Add focus styles for accessibility */
+  .painting-image:focus {
+    outline: 3px solid #007bff;
+    outline-offset: -3px;
+  }
+  
+  .painting-info {
+    padding: 1.5rem;
+  }
+  
+  .painting-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .painting-caption {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .painting-comment {
+    font-size: 0.9rem;
+    color: #888;
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    .painting-image-container {
+      height: 250px;
+    }
+  }

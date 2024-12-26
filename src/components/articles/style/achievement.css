@@ -1,0 +1,138 @@
+/* components/achievements/style/achievement.css */
+.achievement-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.achievement-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.achievement-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.achievement-icon {
+    background: linear-gradient(135deg, #6b8afd, #4466e9);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.trophy-icon {
+    font-size: 1.2rem;
+}
+
+.achievement-title-section {
+    flex-grow: 1;
+}
+
+.achievement-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin: 0 0 0.5rem 0;
+}
+
+.achievement-metadata {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #718096;
+    font-size: 0.9rem;
+}
+
+.metadata-separator {
+    color: #CBD5E0;
+}
+
+.achievement-content {
+    margin: 1rem 0;
+}
+
+.achievement-description {
+    color: #4A5568;
+    line-height: 1.6;
+    margin: 0 0 1rem 0;
+}
+
+.achievement-guide {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #718096;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.guide-icon {
+    color: #6b8afd;
+}
+
+.achievement-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #E2E8F0;
+}
+
+.achievement-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #F7FAFC;
+    border-radius: 6px;
+    color: #4A5568;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background 0.2s ease;
+}
+
+.achievement-link:hover {
+    background: #EDF2F7;
+    color: #2D3748;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .achievement-card {
+        padding: 1rem;
+    }
+
+    .achievement-header {
+        gap: 0.75rem;
+    }
+
+    .achievement-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .achievement-title {
+        font-size: 1.1rem;
+    }
+
+    .achievement-links {
+        flex-direction: column;
+    }
+
+    .achievement-link {
+        width: 100%;
+        justify-content: center;
+    }
+}
