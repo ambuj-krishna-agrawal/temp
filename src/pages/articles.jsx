@@ -65,6 +65,7 @@ const Articles = () => {
 											institute={article().institute}
 											guide={article().guide}
 											isPublished={article().isPublished}
+											type={article().type}
 										/>
 									</div>
 								))}

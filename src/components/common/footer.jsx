@@ -13,10 +13,13 @@ const Footer = () => {
 							<Link to="/">Home</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/articles">ML Projects</Link>
+							<Link to="/articles">Achievements</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/projects">Dev Projects</Link>
+							<Link to="/projects">Projects</Link>
+						</li>
+						<li className="footer-nav-link-item">
+							<Link to="/paintings">Paintings</Link>
 						</li>
 						<li className="footer-nav-link-item">
 							<Link to="/about">About</Link>
@@ -26,7 +29,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						2024 - Ambuj Krishna Agrawal
+						2024 - Garima Luthra
 					</div>
 				</div>
 			</div>

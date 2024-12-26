@@ -1,142 +1,150 @@
 import React from "react";
+import { ACHIEVEMENT_TYPES } from '../components/articles/article';
 
 
-function article_cmu_GPA() {
+function achievement_hackathon_1() {
 	return {
-		date: "September 2024 – Present",
-		title: "Granular Preference-Based Feedback of Generated Text",
-		link: "",
-		guide: "Associate Professor Fernando Diaz, Language Technologies Institute, Carnegie Mellon University",
-		institute: "Carnegie Mellon University",
-		codelink: "https://github.com/shaily99/gpa",
-		isPublished: false,
-		description:
-		"Working as a Research Assistant under Dr. Fernando Diaz on the “Starlight” team, leveraging granular and implicit human preference feedback through infilling and edits to enhance personalization and reduce cognitive load in comparing LLM-based system outputs.",
-		keywords: [
-			"Granular Preference",
-			"RLHF",
-			"Pytorch",
-			"Inference",
-			"LLM",
-			"Ambuj",
-			"Ambuj Krishna Agrawal",
-			"Ambuj Agrawal",
-		]
+	  date: "2021",
+	  title: "LinkedIn Global Hack Day",  // No need to include "Hackathon |" as the component will handle it
+	  type: ACHIEVEMENT_TYPES.HACKATHON,
+	  link: "",
+	  guide: "",
+	  institute: "LinkedIn",
+	  codelink: "",
+	  description: "Awarded as the Winner of Global Hack Day Hackathon organized by WIT LinkedIn for presenting an idea empowering women entrepreneurs to grow their businesses through the LinkedIn platform",
+	  keywords: [
+		"Canvas",
+		"Figma",
+		"Leadership",
+		"Garima",
+		"Garima Luthra"
+	  ]
 	};
-}
-
-
-function article_cmu_rag() {
+  }
+function leadership_0() {
 	return {
-		date: "October 2024 – October 2024",
-		title: "RAG-Chatbot",
+		date: "2020",
+		title: "Team Lead, Instinct IGDTUW ",
 		link: "",
 		guide: "",
-		institute: "Carnegie Mellon University",
+		type: ACHIEVEMENT_TYPES.CREATIVE,
+		institute: "IGDTUW",
 		codelink: "",
 		isPublished: false,
 		description:
-		"In a team of three, developed a RAG pipeline using concepts like multi-query, cross encoders, lost in the middle, BM25, and vector embedding with Langchain and scraped over 5000 documents using selenium to answer the latest questions about Pittsburgh.",
+			"Team Lead, Instinct IGDTUW (2017 – 2019): Spearheaded 20+ confidence-building, public speaking, and interview preparation workshops. Drove social campaigns like Anti-Body Shaming and Mental Health.",
 		keywords: [
-			"RAG",
-			"Retrieval Augmented Generation",
-			"Langchain",
-			"Dense Retrieval",
-			"BM25",
-			"Ambuj",
-			"Ambuj Krishna Agrawal",
-			"Ambuj Agrawal",
+			"Garima",
+			"Garima Luthra",
 		]
 	};
 }
 
-function article_1() {
+function article_mentorship_0() {
 	return {
-		date: "Jan 2020 – July 2020",
-		title: "SLAM and Map Learning using Hybrid Semantic Graph Optimization",
-		link: "https://ieeexplore.ieee.org/abstract/document/9837164",
-		guide: "Asst. Prof. Rahul Kala, Department of Information Technology",
-		institute: "Indian Institute of Information Technology, Allahabad",
-		codelink: "https://github.com/drv-agwl/Hybrid-SPTAM",
-		isPublished: true,
-		description:
-			"Improved localization accuracy of V-SLAM by injecting semantic information of detected corner points (using L-CNN). Detected object in a scene were used for place recognition and correspondence matching which further enhanced the semantic information provided to V-SLAM module.",
-		keywords: [
-			"V-SLAM",
-			"Hybrid-SPTAM",
-			"Visual simultaneous localization and mapping",
-			"Ambuj",
-			"Ambuj Krishna Agrawal",
-			"Ambuj Agrawal",
-		]
-	};
-}
-
-function article_2() {
-	return {
-		date: "May 2019 – July 2019",
-		title: "Research Internship | Predictive Process Management",
-		link: "https://drive.google.com/file/d/1xNPQbf-kt0Tz7Wtdro4BT8KNBSoHfh0w/view?usp=sharing",
-		guide: "Professor K.K Shukla, Department of Computer Science and Engineering",
-		institute: "Indian Institute of Technology, Varanasi (IIT BHU)",
-		codelink: "https://github.com/ambuj-krishna-agrawal/predictive_process_management",
-		description:
-		"Developed a robust high accuracy model on bpi-12 and helpdesk data to improve upon the results from original research paper on Predictive Business Monitoring with LSTM and attention layer based models.",
-		isPublished: false,
-		keywords: [
-			"Predictive Process Management",
-			"Time Series Prediction",
-			"LSTM",
-			"bpi",
-			"Ambuj",
-			"Ambuj Krishna Agrawal",
-			"Ambuj Agrawal",
-		]
-	};
-}
-
-function article_3() {
-	return {
-		date: "July 2020 – Jan 2021",
-		title: "Monitoring Social Distancing with AI",
+		date: "2020",
+		title: "CoachIn Program Mentor",
 		link: "",
-		guide: "Professor Pavan Chakraborty, Department of Information Technology",
-		institute: "Indian Institute of Information Technology, Allahabad",
-		codelink: "https://github.com/zerefwayne/SocialDistancingMonitor",
-		description:
-		"Developed a technique that transforms the footage into a 3D panoptic scene, combining SSDs for pedestrian detection and then applying perspective transformation. This final 3D projection enabled us to accurately count instances where people breached safe distances, even under low-resolution feed and challenging camera angles.",
-		isPublished: false,
-		keywords: [
-			"Social distancing AI",
-			"COCO",
-			"Ambuj",
-			"Ambuj Krishna Agrawal",
-			"Ambuj Agrawal",
-		]
-	};
-}
-
-function article_4() {
-	return {
-		date: "July 2019 – Jan 2020",
-		title: "Object detection in low light conditions",
-		link: "",
-		guide: "Associate Professor Satish Kumar Singh, Department of Information Technology",
-		institute: "Indian Institute of Information Technology, Allahabad",
+		guide: "",
+		type: ACHIEVEMENT_TYPES.MENTORSHIP,
+		institute: "LinkedIn",
 		codelink: "",
-		description:
-		"Developed a model combining inputs from both visible RGB and thermal images and making them go through SSD to predict boundary boxes, which are better than individually trained images. The objective was to improve object detection for vehicles during night and prevent accidents.",
 		isPublished: false,
+		description:
+		"Mentor, LinkedIn CoachIn Program (2024): Guided undergraduate women students in securing software engineering placements by conducting mock interviews and helping them enhance their coding skills.",
 		keywords: [
-			"Social distancing AI",
-			"COCO",
-			"Ambuj",
-			"Ambuj Krishna Agrawal",
-			"Ambuj Agrawal",
+			"Mentionship",
+			"LinkedIn",
+			"Garima",
+			"Garima Luthra"
 		]
 	};
 }
 
-const myArticles = [article_cmu_GPA, article_cmu_rag, article_1, article_2, article_3, article_4];
+function article_mentorship_1() {
+	return {
+		date: "2020",
+		title: "Best DSA Mentor ",
+		link: "",
+		guide: "",
+		type: ACHIEVEMENT_TYPES.MENTORSHIP,
+		institute: "SkillShip Foundation",
+		codelink: "",
+		isPublished: false,
+		description:
+		"Recognized as the Best DSA Mentor in Codonfest Mentorship Program organized by SkillShip Foundation",
+		keywords: [
+			"Mentionship",
+			"LinkedIn",
+			"Garima",
+			"Garima Luthra"
+		]
+	};
+}
+
+function article_academic_1() {
+	return {
+		date: "2015",
+		title: "Academic Excellence",
+		link: "",
+		guide: "",
+		type: ACHIEVEMENT_TYPES.ACADEMIC,
+		institute: "Ryan International School",
+		codelink: "",
+		isPublished: false,
+		description:
+		"Received the Academic Excellence Award for being an academic scholar for 5 consecutive years at school",
+		keywords: [
+			"Academic",
+			"LinkedIn",
+			"Garima",
+			"Garima Luthra"
+		]
+	};
+}
+
+function painting_1() {
+	return {
+		date: "2015",
+		title: "Winner of Space Settlement Design Contest",
+		link: "",
+		guide: "",
+		type: ACHIEVEMENT_TYPES.CREATIVE,
+		institute: "NASA Ames Research Center",
+		codelink: "",
+		isPublished: false,
+		description:
+		"Awarded as the Winner of Space Settlement Design Contest organized by NASA Ames Research Center.",
+		keywords: [
+			"Mentionship",
+			"LinkedIn",
+			"Garima",
+			"Garima Luthra"
+		]
+	};
+}
+
+// function article_1() {
+// 	return {
+// 		date: "Jan 2020 – July 2020",
+// 		title: "SLAM and Map Learning using Hybrid Semantic Graph Optimization",
+// 		link: "https://ieeexplore.ieee.org/abstract/document/9837164",
+// 		guide: "Asst. Prof. Rahul Kala, Department of Information Technology",
+// 		institute: "Indian Institute of Information Technology, Allahabad",
+// 		codelink: "https://github.com/drv-agwl/Hybrid-SPTAM",
+// 		isPublished: true,
+// 		description:
+// 			"Improved localization accuracy of V-SLAM by injecting semantic information of detected corner points (using L-CNN). Detected object in a scene were used for place recognition and correspondence matching which further enhanced the semantic information provided to V-SLAM module.",
+// 		keywords: [
+// 			"Mentionship",
+// 			"LinkedIn",
+// 			"Garima",
+// 			"Garima Luthra"
+// 		]
+// 	};
+// }
+
+const myArticles = [leadership_0, painting_1, article_mentorship_0, article_mentorship_1, article_academic_1, achievement_hackathon_1];
 
 export default myArticles;
+

@@ -1,185 +1,108 @@
 const INFO = {
 	main: {
 		title: "Portfolio",
-		name: "Ambuj Krishna Agrawal",
-		email: "ambujagrawal741@gmail.com",
+		name: "Garima Luthra",
+		email: "garimaluthra2198@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/aka_saturn",
-		github: "https://github.com/ambuj-krishna-agrawal",
-		linkedin: "https://www.linkedin.com/in/ambuj-krishna-agrawal",
-		topmate: "https://topmate.io/ambuj_agrawal11",
-		instagram: "https://www.instagram.com/ambujagrawal007",
+		twitter: "https://x.com/Garima_2198",
+		github: "https://github.com/Garima2198",
+		linkedin: "https://www.linkedin.com/in/garima-luthra/",
+		topmate: "https://topmate.io/garimaluthra",
+		instagram: "https://www.instagram.com/garimaluthra01/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
 	},
 
 	homepage: {
-		title: "Machine Learning Researcher and Backend Developer",
+		title: "Experienced Engineer and Girlfriend",
 		description:
-		"I am a Machine Learning Researcher specializing in the field of Natural Language Processing, currently working on Evaluation of LLMs on Human Preference Feedback, RAG, Routers in LLM and Multimodal Web Agents. I have 3 years of industry experience with microservices and building scalable consumer products. I am actively looking for Machine Learning Internships for Summer 2025.",
+		"As a Site Reliability Engineer at LinkedIn, I honed my skills in critical service management, automation, and problem-solving within the Trust team. My experience in resolving complex issues, developing tools for optimization, and mentoring junior engineers has fostered a strong foundation in technical expertise and leadership. I am eager to leverage my technical background and passion for mentorship to transition into product management, where I can contribute to the development and launch of innovative and impactful products. Outside of work, I enjoy staying active and creative through badminton and painting.",
 	},
 
 	about: {
-		title: "Hello, I'm Ambuj",
+		title: "Hello, I'm Garima",
 		description:
-		"This website showcases my portfolio, tracks my research endeavors, and facilitates collaboration.  Feel free to reach out via email or any of the social media links below for professional opportunities, collaborative projects, or simply to seek advice. Don't hesitate to connect, no matter the topic."
+		"This website showcases my portfolio, tracks my endeavors, and facilitates collaboration.  Feel free to reach out via email or any of the social media links below for professional opportunities, collaborative projects, or simply to seek advice. Don't hesitate to connect, no matter the topic."
 	},
 
 	articles: {
-		title: "Research projects in Machine Learning",
+		title: "Achievements and Position of Responsibility",
 		description:
 			"",
 	},
 
 	projects: [
 		{
-			title: "Vouchers & Gift Cards",
-			description: "Created a new line of product that allows users to buy vouchers and gift cards from various brands and get cashback on them.",
-			features: [
-				"Increased our revenue by 100k USD per month",
-				"Onboarded 11 merchants in our first launch",
-				"Collaborated across verticals to deliver the product on time",
-				"Added real-time monitoring/tracking of bought products"
-			],
-			logo: "cred_1.svg",
-			company: "CRED",
+			title: "Immovable to dynamic servers",
+			description: "Led the end-to-end migration of LinkedIn’s critical services from immovable to dynamic servers, involving extensive research of potential solutions and cross-team collaboration, resulting in $196,000 in hardware cost savings.",
+			features: [],
+			logo: "linkedin.png",
+			company: "LinkedIn",
 			linkText: "",
 			link: "",
 		}, 
 		{
-			title: "Next Best Action for Credit Card Management",
+			title: "New Content Abuse",
 			description:
-				"Developed a system that predicts the next best action for a user to take in order to maximize their engagement with CRED ecosystem",
-			features: [
-				"5% increase in user consenting to our cred-product service",
-				"Created heuristics to reduce the time before which a new statement can be found for a user",
-				"Developed heuristics to reduce the user anxiety on our home page by answering the question, \"Where is my statement?\""
-			],
-			logo: "cred_1.svg",
-			company: "CRED",
-			linkText: "",
-			link: "",
-		},
-		{
-			title: "Hackathon: Maker-Checker platform for teams to deploy product configs",
-			description:
-				"Developed a platform that allows teams to deploy product configurations in a safe and secure manner",
-			features: [
-				"Team stood 3rd in 75+ submissions, scoring ESOPs along with cash",
-				"Estimated savings of approx 500k USD per year for CRED",
-				"Reduced the number of incidents because of human errors while copying stage configs to production"
-			],
-			logo: "cred_1.svg",
-			company: "CRED",
-			linkText: "",
-			link: "",
-		},
-		{
-			title: "Solving Native Memory Leak in JAVA",
-			description:
-				"Debugged a memory leak in JAVA services running with glibc memory allocator causing fragmentation leading to 100% memory consumption of containers",
-			features: [
-				"Many services across CRED saw decrease upto 25% in memory consumption",
-			],
-			logo: "cred_1.svg",
-			company: "CRED",
-			linkText: "",
-			link: "",
-		},
-		{
-			title: "Enhancing Authentication Cookie Security",
-			description:
-				"Changed the encryption signature used to store authentication cookies in the browser used to maintain user sessions",
-			features: [
-				"Team onboarded more than 1000 services across LinkedIn to new type of tokens",
-				"Addressed a major security vulnerability in the system",
-				"Learnt the importance of benchmarking encryption algorithms and their performance impact on the system"
-			],
+				"Collaborated on developing a new Content Abuse service in Spring Boot, reducing site impact caused by legacy services issues by 80% and improving the LinkedIn feed user experience.",
+			features: [],
 			logo: "linkedin.png",
 			company: "LinkedIn",
 			linkText: "",
 			link: "",
 		},
 		{
-			title: "Launching Sign In With Facebook",
+			title: "Intern onboarding",
 			description:
-				"Developed the system to securely allow users to sign in with Facebook on LinkedIn",
-			features: [
-				"Took care of replay attacks using stolen access tokens",
-				"Resulted in +ve WAU for some coutries and certain demographics",
-			],
+				"Onboarded an intern to the Business Impact Assessment Project, focused on calculating the business impact of critical site issues. Project proposal selected for presentation at the Annual Site Engineering Conference 2023.",
+			features: [],
 			logo: "linkedin.png",
 			company: "LinkedIn",
 			linkText: "",
 			link: "",
 		},
 		{
-			title: "Stopping Replay Attacks on Sign In with Google",
+			title: "Login Server Onboarding",
 			description:
-			"Worked with web, iOS and Android teams to solutionise the way to stop replay attacks on Sign In with Google",
-			features: [
-				"Aligned different platform teams on the way to stop replay attacks",
-			],
+				"Led the initiative for centralized storage of Login Server secrets, enhancing scalability, security, and maintenance, while reducing deployment time from 1 hour to 10 minutes.",
+			features: [],
 			logo: "linkedin.png",
 			company: "LinkedIn",
 			linkText: "",
 			link: "",
 		},
 		{
-			title: "Adding WhatsApp for job notifications",
+			title: "Alert Auditing Tool",
 			description:
-			"Securely stored Whatsapp numbers and used them to run campaigns after getting the permission from the users.",
-			features: [
-				"Major effort to move away from SMS to WhatsApp for all types of notifications (even secure ones)",
-			],
+				"Designed a user-friendly UI for the Alert Auditing Tool using wireframing in Figma, after surveying engineers to identify pain points in current alert management process and addressed those challenges in the design.",
+			features: [],
 			logo: "linkedin.png",
 			company: "LinkedIn",
 			linkText: "",
 			link: "",
 		},
 		{
-			title: "OxyTracker",
+			title: "Trust Availability Project",
 			description:
-				"Project made for Haryana Govt. (India) to track oxygen cylinders during the peak of covid second wave in India. Facilitated the flow and tracking of cylinders to civilians and doctors from distributors identified by QR code and cylinder number",
-			features: [
-				"Product featured in news articles and appreciated",
-				"Resulted in faster delivery of oxygen cylinders to the needy and enhanced tracking of the same",
-			],
-			logo: "oxyTracker.png",
-			company: "",
-			linkText: "View Project",
-			link: "https://github.com/ambuj-krishna-agrawal/OxyTracker",
+				"Kickstarted the Trust Availability Project by calculating and onboarding Service Availability metrics for 6 critical backend microservices on LinkedIn’s availability dashboard, improving service health monitoring.",
+			features: [],
+			logo: "linkedin.png",
+			company: "LinkedIn",
+			linkText: "",
+			link: "",
 		},
 		{
-			title: "learn.ai",
+			title: "American Express",
 			description:
-				"As a part of hackathon, worked with team to make a platform to help the learning of machine learning in a playful and engaging way where the users can interact with object to make customized model and get corresponding PyTorch code in realtime",
-			features: [
-				"Stood top 10 in 300+ submissions for Hack 36 organized by MNNIT Allahabad, India",
-				"Used p5.js to create playground for the student to play around with models",
-			],
-			logo: "learn_ai.jpg",
-			company: "",
-			linkText: "View Project",
-			link: "https://github.com/zerefwayne/learn.ai",
-		},
-		{
-			title: "Sync-It",
-			description:
-			"Made a platform that converts a YouTube playlist to a Spotify playlist and vice versa. Optimized the searching and mapping algorithm that powered this conversion to give better results than anything in the market.",
-			features: [
-				"Stood 7th in 250+ submissions for hack the mountain 2.0",
-				"Best in class conversion based on a lot of heuristics applied on spotify data",
-			],
-			logo: "sync.svg",
-			company: "",
-			linkViewDemoText: "View Demo Video",
-			linkViewDemo: "https://www.youtube.com/watch?v=xoaOH6OjWFM&list=LL",
-			linkText: "View Project",
-			link: "https://github.com/ambuj-krishna-agrawal/yt-sp-convertor",
+				"Validated the accuracy of some key machine learning models using Hive, ensuring model reliability and contributing to improved risk management decisions.",
+			features: [],
+			logo: "american-express.svg",
+			company: "American Express",
+			linkText: "",
+			link: "",
 		},
 	],
 };
