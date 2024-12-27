@@ -11,9 +11,10 @@ const Logo = (props) => {
 	if (link === undefined) {
 		link = true;
 	}
-
+	let full_path = process.env.PUBLIC_URL + "/" + INFO.main.logo
+	console.log("path", full_path)
 	const imageElement = (
-		<img src={INFO.main.logo} alt="logo" className="logo" width={width} />
+		<img src={full_path} alt="logo" className="logo" width={width} /> 
 	);
 
 	return (

@@ -7,14 +7,14 @@ import "./styles/project.css";
 
 const Project = (props) => {
 	const { logo, title, description, features, company, linkText, link, linkViewDemoText, linkViewDemo } = props;
-
+	console.log("logo i s", logo)
 	return (
 		<React.Fragment>
 			<div className="project">
 				
 					<div className="project-container">
 						<div className="project-logo">
-							<img src={logo} alt="logo" />
+							<img src={`${process.env.PUBLIC_URL}/${logo}`} alt="logo" />
 						</div>
 						<div className="project-title">{title}</div>
 						<div className="project-description">{description}</div>

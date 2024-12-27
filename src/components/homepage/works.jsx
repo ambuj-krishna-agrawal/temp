@@ -57,7 +57,7 @@ const Works = (props) => {
 						|&nbsp;&nbsp;&nbsp;{date}
 					</div>
 					<div className="homepage-works-title">{title} <div className="homepage-works-logo">
-							<img src={logo} alt="logo" />
+							<img src={`${process.env.PUBLIC_URL}/${logo}`} alt="logo" /> 
 						</div></div>
 					<div className="homepage-works-position">{position}</div>
 					<div className="homepage-works-description">

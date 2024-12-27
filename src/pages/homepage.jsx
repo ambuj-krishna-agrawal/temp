@@ -123,7 +123,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src={`${process.env.PUBLIC_URL}/homepage.jpg`}
 											alt="about"
 											className="homepage-image"
 										/>
@@ -139,7 +139,7 @@ const Homepage = () => {
 								rel="noreferrer"
 							>
 							<div className="homepage-social-icon-img">
-                    			<img src="/topmate.png" alt="Topmate" className="homepage-social-icon-img" />
+                    			<img src={`${process.env.PUBLIC_URL}/topmate.png`} alt="Topmate" className="homepage-social-icon-img" /> 
 							</div>
 							</a>
 							<a

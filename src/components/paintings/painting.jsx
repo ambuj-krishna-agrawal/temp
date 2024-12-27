@@ -1,14 +1,14 @@
 // components/paintings/Painting.jsx
 const Painting = ({ title, image, caption, comment }) => {
   const handleImageClick = () => {
-    window.open(`/paintings/${image}`, '_blank');
+    window.open(`${process.env.PUBLIC_URL}/paintings/${image}`, '_blank');
   };
 
   return (
     <div className="painting-card">
       <div className="painting-image-container">
         <img 
-          src={`/paintings/${image}`} 
+          src={`${process.env.PUBLIC_URL}/paintings/${image}`}
           alt={title} 
           className="painting-image"
           onClick={handleImageClick}

@@ -22,7 +22,7 @@ const Socials = () => {
 					rel="noreferrer"
 				>
 					<div className="social-icon-img">
-                    		<img src="/topmate.png" alt="Topmate" className="social-icon-img" />
+                    		<img src={`${process.env.PUBLIC_URL}/topmate.png`} alt="Topmate" className="social-icon-img" />
 					</div>
 					<div className="social-text">Connect on TopMate</div>
 				</a>

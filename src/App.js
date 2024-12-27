@@ -11,16 +11,20 @@ import Contact from "./pages/contact";
 import Notfound from "./pages/404";
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
+
+
 function App() {
     useEffect(() => {
         if (TRACKING_ID !== "") {
             ReactGA.initialize(TRACKING_ID);
         }
     }, []);
+    const basename = process.env.NODE_ENV === 'production' ? process.env.PUBLIC_URL : '/';
+    console.log(basename)
     return ( 
         <div className="App">
-			{console.log("hello " + process.env.PUBLIC_URL)}
-            <Router basename={process.env.PUBLIC_URL}>
+			{console.log("Public URL:", process.env.PUBLIC_URL)}
+            <Router>
                 <Routes>
                     <Route path="/" element={<Homepage />} />
                     <Route path="about" element={<About />} />
