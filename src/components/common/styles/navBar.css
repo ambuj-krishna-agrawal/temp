@@ -14,31 +14,37 @@
 	position: fixed;
 	top: 3vh;
 	z-index: 999;
+	width: 100%; /* Let it stretch across the screen */
 }
 
+/* Let the container auto-size instead of being stuck at 380px */
 .nav-background {
-	width: 380px;
+	max-width: 90%;
 	height: 40px;
-	padding-left: 0%;
-	padding-right: 0%;
+	padding: 0 20px; /* side padding so items don't stick to edges */
 	background: #fff;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 	border-radius: 40px;
+
+	/* optional: if you want the items truly centered inside */
+	display: flex;
+	align-items: center;
 }
 
 .nav-list {
 	display: flex;
+	flex-wrap: wrap; /* Allows items to wrap when there's not enough room */
 	justify-content: space-between;
-	list-style: none;
 	align-items: center;
-	margin-left: -16px;
-	margin-right: 20px;
-	margin-top: 11px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .nav-item {
 	font-weight: bold;
 	font-size: 80%;
+	margin: 0 10px;
 }
 
 .nav-item.active a {
@@ -55,20 +61,18 @@
 	transition: color 0.3s ease-in-out;
 }
 
+/* Adjust layout on very small screens */
 @media (max-width: 600px) {
 	.navbar {
-		margin-left: 25%;
-		margin-right: 25%;
-		width: 80%;
-		font-size: 80%;
+		top: 2vh; /* optional tweak so it’s not so high up on small screens */
 	}
 
 	.nav-background {
-		width: 80%;
-		height: 40px;
+		max-width: 95%;
+		padding: 0 10px;
 	}
 
-	.nav-item {
-		font-weight: bold;
+	.nav-list {
+		justify-content: center;
 	}
 }
