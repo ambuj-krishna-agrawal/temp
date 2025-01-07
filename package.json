@@ -1,12 +1,12 @@
 {
 	"name": "portfolio",
-	"homepage": "https://garima-luthra.github.io",
+	"homepage": "https://garima-luthra.github.io/",
 	"version": "1.1.0",
 	"description": "Personal portfolio",
 	"author": {
 		"name": "Garima Luthra",
 		"email": "garima2hardik@gmail.com",
-		"url": "https://garima-luthra.github.io"
+		"url": "https://garima-luthra@github.io"
 	},
 	"license": "MIT",
 	"private": true,
