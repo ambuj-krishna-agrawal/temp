@@ -1,12 +1,12 @@
 {
 	"name": "portfolio",
-	"homepage": "https://ambuj-krishna-agrawal.github.io/temp/",
+	"homepage": "https://garima-luthra.github.io",
 	"version": "1.1.0",
 	"description": "Personal portfolio",
 	"author": {
-		"name": "Ambuj krishna Agrawal",
-		"email": "ambujagrawal741@gmail.com",
-		"url": "https://ambuj-krishna-agrawal@github.io/temp/"
+		"name": "Garima Luthra",
+		"email": "garima2hardik@gmail.com",
+		"url": "https://garima-luthra.github.io"
 	},
 	"license": "MIT",
 	"private": true,
