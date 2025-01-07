@@ -17,7 +17,7 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Experienced Engineer and Girlfriend",
+		title: "Experienced Engineer and Problem Solver",
 		description:
 		"As a Site Reliability Engineer at LinkedIn, I honed my skills in critical service management, automation, and problem-solving within the Trust team. My experience in resolving complex issues, developing tools for optimization, and mentoring junior engineers has fostered a strong foundation in technical expertise and leadership. I am eager to leverage my technical background and passion for mentorship to transition into product management, where I can contribute to the development and launch of innovative and impactful products. Outside of work, I enjoy staying active and creative through badminton and painting.",
 	},

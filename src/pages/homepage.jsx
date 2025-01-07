@@ -101,16 +101,13 @@ const Homepage = () => {
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description}
 								</div>
-								{/* <div className="resume-download">
-									<p><div>Want to hire me?</div> <a href="_AMBUJ_AGRAWAL.pdf" download>Download my resume!</a> or view <span className="view-resume" onClick={() => window.open("https://drive.google.com/drive/folders/your_folder_id", "_blank")}>&#128065;</span></p>
-								</div> */}
 								<div className="resume-download">
 								<p>Want to hire me?</p>
 								<div>
-									<a href="_AMBUJ_AGRAWAL.pdf" download className="download-button">
+									<a href={`${process.env.PUBLIC_URL}/Garima_Luthra_Resume.pdf`} download className="download-button">
 										Download my resume!
 									</a>
-									<button className="view-resume" onClick={() => window.open("https://drive.google.com/file/d/1e20lVTXbSp3nA8gGZtGPINgLobfQgfmv/view?usp=sharing", "_blank")}>
+									<button className="view-resume" onClick={() => window.open("https://drive.google.com/drive/folders/1jIN0L0l9TACycxJQCTqb4ZRZQns3onOM?usp=sharing", "_blank")}>
 									<FontAwesomeIcon icon={faEye} /> View
 									</button>
 								</div>

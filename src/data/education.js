@@ -1,28 +1,28 @@
 import React from "react";
 
-function education_3() {
-	return {
-		date: "",
-		title: "Additional Courses",
-		description:"",
-        gpa: "",
-        institute: "",
-        courses: [],
-        onlineCoursesList: [
-            {
-                "name": "Machine Learning",
-                "institute": "Stanford",
-                "date": "14 Jan. 2019",
-                "certificate": "https://www.coursera.org/account/accomplishments/verify/2PPS4UYUN6H7",
-            },
-        ],
-		keywords: [
-			"Coursera",
-			"Garima Luthra",
-			"Garima",
-		]
-	};
-}
+// function education_3() {
+// 	return {
+// 		date: "",
+// 		title: "Additional Courses",
+// 		description:"",
+//         gpa: "",
+//         institute: "",
+//         courses: [],
+//         onlineCoursesList: [
+//             {
+//                 "name": "Machine Learning",
+//                 "institute": "Stanford",
+//                 "date": "14 Jan. 2019",
+//                 "certificate": "https://www.coursera.org/account/accomplishments/verify/2PPS4UYUN6H7",
+//             },
+//         ],
+// 		keywords: [
+// 			"Coursera",
+// 			"Garima Luthra",
+// 			"Garima",
+// 		]
+// 	};
+// }
 
 function education_1() {
 	return {
@@ -53,6 +53,6 @@ function education_1() {
 	};
 }
 
-const myEducation = [education_1, education_3];
+const myEducation = [education_1];
 
 export default myEducation;
